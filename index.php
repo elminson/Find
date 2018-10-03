@@ -12,7 +12,10 @@ require __DIR__ . '/vendor/autoload.php';
 
 $find = new FindFiles('./tests/input.txt');
 
-print_r($find->getFiles());
-
-print_r($find->getFilespatterns());
+$find->getFilespatterns();
+print_r($find->files);
+print_r($find->extensions);
+$find->setPattern('/[a-z](.txt)/');
+$find->getFilespatterns();
+print_r($find->files);
 print_r($find->extensions);

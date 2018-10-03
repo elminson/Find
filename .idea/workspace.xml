@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98413d99-516c-46ee-8b7c-b2991a8e06dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindFiles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/testFindFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindFiles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testFindFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testFindFiles.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +43,7 @@
         <counts>
           <entry key="json" value="46" />
           <entry key="md" value="304" />
-          <entry key="php" value="862" />
+          <entry key="php" value="920" />
           <entry key="txt" value="86" />
         </counts>
       </usages-collector>
@@ -56,7 +51,7 @@
         <counts>
           <entry key="JSON" value="46" />
           <entry key="Markdown" value="304" />
-          <entry key="PHP" value="862" />
+          <entry key="PHP" value="920" />
           <entry key="PLAIN_TEXT" value="86" />
         </counts>
       </usages-collector>
@@ -96,17 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindFiles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="280">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/testFindFiles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="256">
+              <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="43" />
               <folding>
                 <element signature="e#147#180#0#PHP" expanded="true" />
               </folding>
@@ -123,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -151,10 +146,10 @@
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/tests/input.txt" />
         <option value="$PROJECT_DIR$/src/FindFiles.php" />
         <option value="$PROJECT_DIR$/tests/testFindFiles.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -258,32 +253,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538588577854</updated>
-      <workItem from="1538588579417" duration="5412000" />
+      <workItem from="1538588579417" duration="5873000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testFindFiles_(1) - 2018.10.03 at 14h 38m 15s.xml">
-      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testFindFiles_(1) - 2018.10.03 at 14h 39m 03s.xml">
-      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testFindFiles_(1) - 2018.10.03 at 14h 39m 21s.xml">
-      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testFindFiles_(1) - 2018.10.03 at 14h 39m 43s.xml">
-      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testFindFiles_(1) - 2018.10.03 at 14h 39m 52s.xml">
-      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testFindFiles_(1) - 2018.10.03 at 14h 41m 14s.xml">
-      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="testFindFiles_(1) - 2018.10.03 at 14h 41m 44s.xml">
-      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="testFindFiles_(1) - 2018.10.03 at 14h 42m 17s.xml">
       <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -293,9 +267,30 @@
     <history-entry file="testFindFiles_(1) - 2018.10.03 at 15h 03m 32s.xml">
       <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="testFindFiles_(1) - 2018.10.03 at 15h 17m 09s.xml">
+      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testFindFiles_(1) - 2018.10.03 at 15h 19m 48s.xml">
+      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testFindFiles_(1) - 2018.10.03 at 15h 20m 30s.xml">
+      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testFindFiles_(1) - 2018.10.03 at 15h 22m 53s.xml">
+      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testFindFiles_(1) - 2018.10.03 at 15h 23m 19s.xml">
+      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testFindFiles_(1) - 2018.10.03 at 15h 24m 06s.xml">
+      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="testFindFiles_(1) - 2018.10.03 at 15h 24m 25s.xml">
+      <configuration name="testFindFiles (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5412000" />
+    <option name="totallyTimeSpent" value="5873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="41" width="1404" height="776" extended-state="0" />
@@ -307,11 +302,11 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindFiles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -375,20 +363,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/src/FindFiles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/testFindFiles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="256">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="43" />
           <folding>
             <element signature="e#147#180#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>

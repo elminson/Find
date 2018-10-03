@@ -10,9 +10,12 @@ namespace Elminson\FindFiles;
 
 class FindFiles
 {
-    protected $files = [];
+    public $files = [];
+
     public $extensions = [];
+
     protected $file;
+
     // More documentation https://www.phpliveregex.com/
     private $pattern = '/[A-Z](.*)/';
 
@@ -34,32 +37,7 @@ class FindFiles
     }
 
     /**
-     * @return array
-     */
-    public function getFiles()
-    {
-        $this->files = [];
-        $this->extensions = [];
-        $data = file_get_contents($this->file, true);
-        $files = explode("\n", $data);
-        foreach ($files as $key => $value) {
-            $file_name = explode(".", $value);
-
-            if (isset($file_name[1])) {
-                $file_name2 = explode("_", $value);
-                $this->extensions[] = $file_name[1];
-                if (!isset($file_name2[1])) {
-                    $this->files[] = $file_name2[0];
-                } else {
-                    $this->files[] = $file_name2[1];
-                }
-            }
-        }
-        return $this->files;
-    }
-
-    /**
-     * @return array
+     * @return void
      */
     public function getFilespatterns()
     {
@@ -73,6 +51,5 @@ class FindFiles
                 $this->extensions [] = $match_patern[1];
             }
         }
-        return $this->files;
     }
 }
