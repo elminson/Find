@@ -11,11 +11,8 @@ namespace Elminson\Find;
 require __DIR__ . '/vendor/autoload.php';
 
 $find = new Find('./tests/input.txt');
-
-$find->getData();
-print_r($find->files);
-print_r($find->extensions);
+$find->findData();
+print_r($find->dataContent);
 $find->setPattern('/[a-z](.txt)/');
-$find->getData();
-print_r($find->files);
-print_r($find->extensions);
+$find->findData();
+print_r($find->dataContent);

@@ -12,17 +12,18 @@ use Elminson\Find\Files;
 
 /**
  * @property array data
+ * @property bool is_json
  */
 class Find
 {
 
-    public $files = [];
-
-    public $extensions = [];
-
     protected $file;
 
-    protected $data;
+    protected $is_json = false;
+
+    public $data;
+
+    public $dataContent;
 
     // More documentation https://www.phpliveregex.com/
     private $pattern = '/[A-Z](.*)/';
@@ -31,7 +32,7 @@ class Find
      * Find constructor.
      * @param $file
      */
-    public function __construct($file)
+    public function __construct($file = "")
     {
         //   parent::__construct(...func_get_args());
         $this->file = $file;
@@ -50,14 +51,12 @@ class Find
     /**
      * @return void
      */
-    public function getData()
+    public function findData()
     {
-        $this->files = [];
-        $this->extensions = [];
+        $this->dataContent = [];
         foreach ($this->data as $key => $value) {
             if (preg_match($this->pattern, $value, $match_patern)) {
-                $this->files [] = $match_patern[0];
-                $this->extensions [] = $match_patern[1];
+                $this->dataContent [] = $match_patern[0];
             }
         }
     }
@@ -85,5 +84,13 @@ class Find
     private function setData(array $data)
     {
         $this->data = $data;
+    }
+
+    /**
+     *
+     */
+    public function getDataJson()
+    {
+        return json_encode($this->dataContent);
     }
 }
