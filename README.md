@@ -10,7 +10,34 @@ More info about regular expresions
 
 https://www.phpliveregex.com/
 
+### Usage
+```php
+namespace Elminson\Find;
 
+require __DIR__ . '/vendor/autoload.php';
+
+$find = new Find('./tests/input.txt');
+$find->findData();
+print_r($find->dataContent);
+Array
+(
+    [0] => A.txt
+    [1] => A.cpp
+    [2] => A.cs
+    [3] => A.java
+)
+
+$find->setPattern('/[a-z](.txt)/');
+$find->findData();
+print_r($find->dataContent);
+Array
+(
+    [0] => a.txt
+    [1] => b.txt
+    [2] => c.txt
+)
+
+```
 ### Test
 
 with the tests/input.txt
