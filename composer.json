@@ -1,0 +1,34 @@
+{
+  "name": "elminson/find-files",
+  "description": "Given a File with files name",
+  "type": "project",
+  "require": {
+    "phpunit/phpunit": "^7.4@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4@dev"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Elminson De Oleo Baez",
+      "email": "edeoleo@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Elminson\\FindFiles\\": "src/",
+      "Elminson\\FindFiles\\Test\\": "tests/"
+    },
+    "psr-4": {
+      "Elminson\\FindFiles\\": "src/",
+      "Elminson\\FindFiles\\Test\\": "tests/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Elminson\\FindFiles\\Test\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev"
+}
