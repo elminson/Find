@@ -1,4 +1,4 @@
-# findFiles
+# Find Data
 
 Given a File with files name 
 return the file name ignoring the first part 

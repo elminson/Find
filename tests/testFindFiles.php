@@ -8,19 +8,19 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 
-use Elminson\FindFiles\FindFiles;
+use Elminson\Find\Find;
 use PHPUnit\Framework\TestCase;
 
-class testFindFiles extends TestCase
+class testFind extends TestCase
 {
 
     /**
      *
      */
-    function testGetFilesPatterns()
+    function testGetDataPatterns()
     {
-        $find = new FindFiles('./input.txt');
-        $find->getFilespatterns();
+        $find = new Find('./input.txt');
+        $find->getData();
         $files = $find->files;
         $this->assertEquals("A.txt", $files[0]);
         $this->assertEquals("A.cpp", $files[1]);
@@ -28,22 +28,22 @@ class testFindFiles extends TestCase
         $this->assertEquals("A.java", $files[3]);
     }
 
-    function testGetFilesPatternsLowerCase()
+    function testGetDataPatternsLowerCase()
     {
-        $find = new FindFiles('./input.txt');
+        $find = new Find('./input.txt');
         //get all txt
         $find->setPattern('/[a-z](.txt)/');
-        $find->getFilespatterns();
+        $find->getData();
         $files = $find->files;
         $this->assertEquals("a.txt", $files[0]);
         $this->assertEquals("b.txt", $files[1]);
         $this->assertEquals("c.txt", $files[2]);
     }
 
-    function testGetFilesPatternsExt()
+    function testGetDataPatternsExt()
     {
-        $find = new FindFiles('./input.txt');
-        $find->getFilespatterns();
+        $find = new Find('./input.txt');
+        $find->getData();
         $extensions = $find->extensions;
         $this->assertEquals(".txt", $extensions[0]);
         $this->assertEquals(".cpp", $extensions[1]);
@@ -51,12 +51,12 @@ class testFindFiles extends TestCase
         $this->assertEquals(".java", $extensions[3]);
     }
 
-    function testGetFilesPatternsLowerCaseExt()
+    function testGetDataPatternsLowerCaseExt()
     {
-        $find = new FindFiles('./input.txt');
+        $find = new Find('./input.txt');
         //get all txt
         $find->setPattern('/[a-z](.txt)/');
-        $find->getFilespatterns();
+        $find->getData();
         $extensions = $find->extensions;
         $this->assertEquals(".txt", $extensions[0]);
         $this->assertEquals(".txt", $extensions[1]);

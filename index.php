@@ -6,16 +6,16 @@
  * Time: 1:49 PM
  */
 
-namespace Elminson\FindFiles;
+namespace Elminson\Find;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$find = new FindFiles('./tests/input.txt');
+$find = new Find('./tests/input.txt');
 
-$find->getFilespatterns();
+$find->getData();
 print_r($find->files);
 print_r($find->extensions);
 $find->setPattern('/[a-z](.txt)/');
-$find->getFilespatterns();
+$find->getData();
 print_r($find->files);
 print_r($find->extensions);

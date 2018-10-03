@@ -17,17 +17,17 @@
   ],
   "autoload": {
     "psr-0": {
-      "Elminson\\FindFiles\\": "src/",
-      "Elminson\\FindFiles\\Test\\": "tests/"
+      "Elminson\\Find\\": "src/",
+      "Elminson\\Find\\Test\\": "tests/"
     },
     "psr-4": {
-      "Elminson\\FindFiles\\": "src/",
-      "Elminson\\FindFiles\\Test\\": "tests/"
+      "Elminson\\Find\\": "src/",
+      "Elminson\\Find\\Test\\": "tests/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Elminson\\FindFiles\\Test\\": "tests/"
+      "Elminson\\Find\\Test\\": "tests/"
     }
   },
   "minimum-stability": "dev"
