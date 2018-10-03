@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98413d99-516c-46ee-8b7c-b2991a8e06dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testFindFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testFindFiles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +40,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="46" />
-          <entry key="md" value="304" />
+          <entry key="md" value="349" />
           <entry key="php" value="920" />
           <entry key="txt" value="86" />
         </counts>
@@ -50,7 +48,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="46" />
-          <entry key="Markdown" value="304" />
+          <entry key="Markdown" value="349" />
           <entry key="PHP" value="920" />
           <entry key="PLAIN_TEXT" value="86" />
         </counts>
@@ -76,12 +74,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="102">
-                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <first_editor relative-caret-position="187">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -118,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -145,11 +143,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests/input.txt" />
         <option value="$PROJECT_DIR$/src/FindFiles.php" />
         <option value="$PROJECT_DIR$/tests/testFindFiles.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -253,7 +251,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538588577854</updated>
-      <workItem from="1538588579417" duration="5873000" />
+      <workItem from="1538588579417" duration="5945000" />
     </task>
     <servers />
   </component>
@@ -290,7 +288,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5873000" />
+    <option name="totallyTimeSpent" value="5945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="41" width="1404" height="776" extended-state="0" />
@@ -346,16 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="102">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -384,6 +372,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="187">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
